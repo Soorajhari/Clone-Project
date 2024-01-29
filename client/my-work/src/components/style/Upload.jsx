@@ -19,6 +19,7 @@ const Upload = ({ sideBar, setSideBar, setUpload, uploaded }) => {
     setTimeout(() => {
       setLoading(false);
       setUpload(true);
+      setFile("")
     }, 2000);
   };
 
