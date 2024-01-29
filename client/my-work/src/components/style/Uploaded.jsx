@@ -68,13 +68,13 @@ const Uploaded = () => {
   <div className="space-y-5 mt-10">
   {data.map((item, index) => (
     <ul
-      className="flex justify-between text-ms lg:text-base overflow-x-auto font-medium items-center px-2 w-auto bg-[#ffff] gap-y-10 h-[60px]"
+      className="flex justify-between text-ms   lg:text-base  font-medium  px-2  bg-[#ffff] gap-y-10 h-[60px]"
       key={index}
     >
-      <li>{item.id}</li>
-      <li className="w-[10px]">{item.url}</li>
-      <li className="w-[10px]">{item.code}</li>
-      <li className="w-[10px]">
+      <li className="">{item.id}</li>
+      <li className="w-[40px]">{item.url}</li>
+      <li className="">{item.code}</li>
+      <li className="">
         <select
           name={`categories-${item.id}`}
           id={`categories-${item.id}`}
