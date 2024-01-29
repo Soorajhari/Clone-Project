@@ -6,7 +6,7 @@ import Uploads from "../../assets/Icon.png";
 import Subtract from "../../assets/Subtract (3).png";
 import Ticket from "../../assets/Ticket.png";
 import Spin from "./Spin";
-import { Link } from "react-router-dom";
+
 
 const Upload = ({ sideBar, setSideBar, setUpload, uploaded }) => {
   const [file, setFile] = useState("");
