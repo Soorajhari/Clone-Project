@@ -1,0 +1,11 @@
+.trapezoid {
+    width: 100%;
+    height: 100%;
+    background: #605BFF;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform-origin: top right;
+    transform: perspective(300px) skewX(-12deg); 
+  }
+  
