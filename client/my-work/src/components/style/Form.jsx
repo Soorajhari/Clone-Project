@@ -14,7 +14,7 @@ const Form = () => {
   return (
     <div className=" block lg:flex  gap-x-28">
       <div class="hidden lg:flex">
-        <div class="2xl:w-[900px] xl:w-[600px] lg:w-[520px] h-screen overflow-hidden relative">
+        <div class="2xl:w-[850px] xl:w-[600px] lg:w-[520px] h-screen overflow-hidden relative">
           <div class="trapezoid">
             <div className="ml-10 mt-10">
               <img
@@ -26,15 +26,15 @@ const Form = () => {
 
             <div class="p-3 flex flex-col items-center justify-center h-full">
               <div>
-                <p class="text-white font-semibold 2xl:text-[70px] text-[50px]">
+                <p class="text-white font-semibold 2xl:text-[60px] text-[50px]">
                   BASE
                 </p>
               </div>
 
-              <div className="flex gap-x-4 mt-96">
+              <div className="flex gap-x-4 mt-96 ml-32">
                 {img.map((item) => (
                   <img
-                    className="w-[25px] h-[25px]"
+                    className="w-[25px] h-[25px] text-white  "
                     src={item}
                     alt="social-media-icons"
                   />

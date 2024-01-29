@@ -88,7 +88,7 @@ const Uploaded = () => {
           ))}
         </select>
       </li>
-      <li>
+      <li >
         <div className="flex gap-x-3 items-center">
           {selectedCategories[item.id] && (
             <div
