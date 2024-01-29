@@ -24,7 +24,7 @@ const Sidebar = () => {
             <div className="space-y-8 mt-10">
               {data.map((item, index) => (
                 <div key={index} className="flex gap-x-5">
-                  <img src={item[0]} alt="" />
+                  <img src={item[0]} alt="" className={ ` object-cover ${item[1]==="Upload"?'bg-[#605BFF] text-white':""}`} />
                   <p className="text-lg font-medium text-gray-400">{item[1]}</p>
                 </div>
               ))}
